@@ -1,3 +1,89 @@
 h1 {
   color: chartreuse;
+  font-size: 40px;
+  font-weight: normal;
+  /* font-style: italic; */
+  font-family: serif;
+}
+
+h4 {
+  color: purple;
+  font-family: Arial;
+  font-style: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-indent: 40px;
+  color: blue;
+  font-family: serif;
+}
+
+ul {
+  color: red;
+  font-family: serif;
+}
+
+li {
+  color: red;
+  font-family: serif;
+  list-style-type: square;
+}
+
+#summary {
+  color: grey;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#promise {
+  color: blue;
+  /*font-style: italic;*/
+  text-align: center;
+}
+
+#columns {
+  display: grid;
+  /* grid-template-rows: 400px 400px; */
+  grid-template-columns: 50% 25% 25%;
+}
+
+#article {
+}
+
+#characters {
+}
+
+#storyPlot {
+  text-indent: 40px;
+}
+
+.highlight {
+  /* (No use of <ul></ul>) list-style-type: square; */
+  font-style: serif;
+  color: grey;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.emphasis {
+  font-weight: normal;
+  color: red;
+  font-size: 20px;
+}
+
+.text {
+  color: green;
+  font-weight: normal;
+  font-size: 20px;
+  text-indent: 40px;
+}
+
+.gridItems {
+  margin: 10px;
+  /* padding: 10px;
+   border-style: solid; */
 }
